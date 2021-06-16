@@ -5,12 +5,154 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".MainActivity">
+
+ <EditText
+android:id="@+id/name"
+android:layout_width="421dp"
+android:layout_height="68dp"
+android:inputType="text"
+android:hint="@string/name"
+android:textStyle="bold"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="1.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.0"
+android:importantForAutofill="no" />
+ <TextView
+     android:id="@+id/start"
+     android:layout_width="77dp"
+     android:layout_height="28dp"
+     android:hint="@string/start"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.987"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.111" />
+ <EditText
+     android:id="@+id/hour"
+     android:layout_width="131dp"
+     android:layout_height="48dp"
+     android:format12Hour="hh:mm:ss a"
+     android:inputType="time"
+     android:hint="@string/time"
+     android:textSize="18sp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.287"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.171"
+     android:importantForAutofill="no" />
+ <EditText
+     android:id="@+id/date"
+     android:layout_width="131dp"
+     android:layout_height="51dp"
+     android:hint="@string/date"
+     android:textSize="18sp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.83"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.166" />
+
+ <EditText
+     android:id="@+id/editText"
+     android:layout_width="396dp"
+     android:layout_height="63dp"
+     android:hint="@string/describ"
+     android:inputType="text"
+     android:textStyle="bold"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.733"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.321" />
+
+ <TextView
+     android:layout_width="77dp"
+     android:layout_height="28dp"
+     android:hint="@string/repeat"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.988"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.416" />
+
+ <Spinner
+     android:layout_width="163dp"
+     android:layout_height="40dp"
+     android:id="@+id/spiner"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.983"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.48" />
+
+ <CheckBox
+     android:layout_width="37dp"
+     android:layout_height="34dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.066"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.487" />
+
+ <TextView
+     android:layout_width="163dp"
+     android:layout_height="40dp"
+     android:text="@string/همیشگی"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.282"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.483" />
+ <TextView
+     android:layout_width="77dp"
+     android:layout_height="28dp"
+     android:hint="@string/notif"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.988"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.543" />
+
+ <EditText
+     android:id="@+id/notif"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="@string/_10"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="1.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.619" />
+
+ <Button
+     android:id="@+id/btnsave"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/save"
+     android:background="#90018786"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.498"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.9" />
 
 
-/>
-
-
-
+</android.support.constraint.ConstraintLayout>
 
 

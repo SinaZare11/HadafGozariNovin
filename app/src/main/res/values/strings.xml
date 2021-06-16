@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HadafGozariNovin</string>
+    <string name="name">اسم پروژه</string>
+    <string name="start">شروع</string>
+    <string name="time">ساعت</string>
+    <string name="date">تاریخ</string>
+    <string name="repeat">تکرار</string>
+    <string name="describ">توضیحات</string>
+    <string name="همیشگی">همیشگی</string>
+    <string name="_10">10دقیقه قبل</string>
+    <string name="notif">اعلان</string>
+    <string name="save">ذخیره</string>
 </resources>
